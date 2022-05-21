@@ -5,7 +5,7 @@
 
 Verinin yüklenmesi : [veriYukleme.ipynb](https://github.com/benvekedim/machine-learning-101/blob/main/veriYukleme.ipynb)
 
-Eksik veriler : [veriYukleme.ipynb](https://github.com/benvekedim/machine-learning-101/blob/main/veriYukleme.ipynb)
+Eksik veriler : [eksikVeriler.ipynb](https://github.com/benvekedim/machine-learning-101/blob/main/eksikVeriler.ipynb)
 
 Kategorik veriler : [kategorik.ipynb](https://github.com/benvekedim/machine-learning-101/blob/main/kategorik.ipynb)
 
