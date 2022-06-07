@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/benvekedim/machine-learning-101/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Customer Segmentation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Yazar: Mustafa Eroğlu
 
-### Markdown
+Tarih: 7 Haziran 2022
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p>
+Bu projede sahte müşteri veri setiyle çalıştım. StandardScaler, KMeans ve PCA kullanarak analiz yaptım
+</p>
 
-```markdown
-Syntax highlighted code block
+<p> Verileri keşfedelim.</p>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+df.head()
+```
+![Image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customerDF.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<p> İşlenmemiş veri için Age ve İncome saçılım grafiğini çizelim.</p>
 
-### Jekyll Themes
+```
+plt.figure(figsize = (12, 9))
+plt.scatter(df.iloc[:, 2], df.iloc[:, 4])
+plt.xlabel('Age')
+plt.ylabel('Income')
+plt.title('Visualization of raw data')
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/benvekedim/machine-learning-101/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+![Image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customer-RAW.png)
 
-### Support or Contact
+<p> Müşteri verisinde StandardScaler ve KMeans algoritmalarını uygulayalım. </p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customer-KMEANS.png)
+
+<p>Müşteri verisinde PCA ve KMeans algoritmalarını uygulayalım. </p>
+
+![Image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customer-PCA.png)
+
+<p>Okuduğunuz için teşekkürler </p>
