@@ -14,7 +14,7 @@ Bu projede sahte müşteri veri setiyle çalıştım. StandardScaler, KMeans ve 
 ```
 df.head()
 ```
-![image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customerDF.png?raw=true)
+![image](/img/customerDF.png)
 
 <p> İşlenmemiş veri için Age ve İncome saçılım grafiğini çizelim.</p>
 
@@ -26,14 +26,16 @@ plt.ylabel('Income')
 plt.title('Visualization of raw data')
 
 ```
-![image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customer-RAW.png?raw=true)
+![image](/img/customer-RAW.png)
 
 <p> Müşteri verisinde StandardScaler ve KMeans algoritmalarını uygulayalım. </p>
 
-![image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customer-KMEANS.png?raw=true)
+![image](/img/customer-KMEANS.png)
 
 <p>Müşteri verisinde PCA ve KMeans algoritmalarını uygulayalım. </p>
 
-![image](https://github.com/benvekedim/machine-learning-101/blob/gh-pages/img/customer-PCA.png?raw=true)
+![image](/img/customer-PCA.png)
 
 <p>Okuduğunuz için teşekkürler </p>
+
+
